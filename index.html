@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="htmx-moveBefore.js"></script>
+    </head>
+    <body>
+    <main>
+        <button hx-get="video1.html"
+                hx-target="#video-container">
+            Load Video Layout 1
+        </button>
+        <button hx-get="video2.html"
+                hx-target="#video-container">
+            Load Video Layout 2
+        </button>
+        <hr/>
+        <div id="video-container">
+            ---
+        </div>
+    </main>
+    </body>
+</html>
